@@ -1,0 +1,48 @@
+
+/* Navbar.module.css */
+nav {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  li {
+    display: inline;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  a:hover {
+    background-color: #555;
+    border-radius: 5px;
+  }
+  
+  div {
+    margin-top: 1rem;
+  }
+  
+  @media (max-width: 768px) {
+    ul {
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+  
+    a {
+      display: block;
+      text-align: center;
+    }
+  }
+  
