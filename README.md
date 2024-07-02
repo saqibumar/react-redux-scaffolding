@@ -1,10 +1,13 @@
 # Getting Started with Create React App
+This is a scaffolding project using reactjs + redux. Anyone can get a head start with this demo project and build up.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `npm i`
 
 ### `npm start`
 
